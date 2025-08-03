@@ -1,46 +1,39 @@
-# Astro Starter Kit: Basics
+# 🌆 CityWise — Weather-Based Lifestyle Landing Page
 
-```sh
-npm create astro@latest -- --template basics
-```
+**CityWise** is a modern, elegant, and responsive landing page that combines real-time weather data with lifestyle suggestions to help users plan their day better. Powered by **Astro**, styled with **TailwindCSS**, and animated using **GSAP**, this project demonstrates how to build a performant, scroll-animated experience for the web.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## 📸 Preview
 
-Inside of your Astro project, you'll see the following folders and files:
+![CityWise Screenshot](./public/assets/citywise-preview.png)
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+---
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🚀 Features
 
-## 🧞 Commands
+- **🌤 Live Weather Integration**  
+  Displays up-to-date weather data for your city.
 
-All commands are run from the root of the project, from a terminal:
+- **🧠 Smart Suggestions**  
+  Lifestyle ideas based on current weather conditions.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- **🎞 GSAP Scroll Animations**  
+  Smooth, scroll-triggered transitions to enhance UX.
 
-## 👀 Want to learn more?
+- **📱 Mobile-Friendly**  
+  Fully responsive design optimized for all devices.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **⚡️ Astro Performance**  
+  Ultra-fast performance using Astro's static site capabilities.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Astro](https://astro.build/)
+- **Styling:** [TailwindCSS](https://tailwindcss.com/)
+- **Animation:** [GSAP](https://greensock.com/gsap/) + [ScrollTrigger](https://greensock.com/scrolltrigger/)
+- **Weather API:** (OpenWeather or any alternative)
+
+---
