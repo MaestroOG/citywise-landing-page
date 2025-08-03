@@ -1,0 +1,13 @@
+---
+const { imgPath, text, description } = Astro.props;
+---
+
+<div class="max-w-xs flex-1 h-full">
+    <img src={imgPath} alt="card-img" />
+    <div class="mt-3">
+        <h3>{text}</h3>
+        <p class="text-sm text-muted">
+            {description}
+        </p>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+---
+const { icon, text, desc } = Astro.props;
+---
+
+<div
+    class="max-w-xs flex-1 h-full border border-gray-80 p-4 flex flex-col space-y-3 rounded-lg"
+>
+    <img src={icon} alt="building icon" class="w-6 h-6" />
+    <div>
+        <h3 class="font-bold">{text}</h3>
+        <p class="text-muted text-sm">
+            {desc}
+        </p>
+    </div>
+</div>

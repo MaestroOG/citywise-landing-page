@@ -1,0 +1,28 @@
+---
+import Card from "./Card.astro";
+---
+
+<section class="max-w-7xl mx-auto py-10">
+    <h1 class="font-bold text-4xl mb-4">Key Features</h1>
+    <p class="text-base-50 mb-10">
+        Discover how CityWise enhances your daily life with its intuitive
+        interface and powerful features.
+    </p>
+    <div class="flex items-stretch gap-3">
+        <Card
+            imgPath="/card-img-one.png"
+            text="Real-Time Weather Updates"
+            description="Stay ahead with accurate, up-to-the-minute weather forecasts for your city."
+        />
+        <Card
+            imgPath="/card-img-two.png"
+            text="Personalized Lifestyle Suggestions"
+            description="Receive tailored recommendations for activities, events, and places based on your preferences and the current weather."
+        />
+        <Card
+            imgPath="/card-img-three.png"
+            text="Intuitive User Interface"
+            description="Navigate effortlessly with a clean, user-friendly design that puts all the information you need at your fingertips."
+        />
+    </div>
+</section>
