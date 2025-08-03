@@ -1,25 +1,27 @@
 ---
-const li = ["Home", "Features"];
+
 ---
 
-<header class="px-10 py-5 flex items-center justify-between">
+<header
+    class="px-10 py-5 flex items-center justify-between sticky top-0 bg-white z-40"
+>
     <a href="/"><img src="/logo.png" alt="" class="cursor-pointer" /></a>
     <nav>
         <ul class="flex items-center gap-9">
             <li
                 class="hover:border-b transition-all duration-75 cursor-pointer"
             >
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
             </li>
             <li
                 class="hover:border-b transition-all duration-75 cursor-pointer"
             >
-                <a href="#">Features</a>
+                <a href="#features">Features</a>
             </li>
             <li
                 class="px-4 py-3 bg-blue-primary text-sm text-white font-bold rounded-2xl cursor-pointer"
             >
-                <a href="#">Get Started</a>
+                <a href="#cta">Get Started</a>
             </li>
         </ul>
     </nav>
