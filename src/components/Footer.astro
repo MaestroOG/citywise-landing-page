@@ -2,11 +2,12 @@
 const year = new Date().getFullYear();
 ---
 
-<footer class="px-10 py-5 mt-10 flex items-center justify-between">
+<footer class="px-2 md:px-10 py-5 mt-10 flex items-center justify-between">
     <a href="/"><img src="/logo.png" alt="" class="cursor-pointer" /></a>
     <nav>
-        <ul class="flex items-center gap-9">
-            {year} &copy; CityWise. All Rights Reserved.
-        </ul>
+        <span class="text-xs md:text-base"
+            >{year} &copy; <span class="hidden md:block">CityWise.</span> All Rights
+            Reserved.</span
+        >
     </nav>
 </footer>

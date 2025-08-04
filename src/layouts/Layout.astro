@@ -1,4 +1,5 @@
 ---
+import "aos/dist/aos.css";
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 import "../styles/global.css";
@@ -40,6 +41,11 @@ const url = "https://landing-citywise.vercel.app/"; // Replace with your real do
 		<Navbar />
 		<slot />
 		<Footer />
+
+		<script>
+			import AOS from "aos";
+			AOS.init();
+		</script>
 	</body>
 </html>
 
